@@ -1,0 +1,102 @@
+// Styling for the masthead
+.products {
+  background-color: $theme-primary;
+  embed {
+    width: 100%;
+    height: auto;
+  }
+  a {
+    color: $theme-contrast;
+    @include transition-all;
+    &:hover,
+    &:focus {
+        color: $gray-lighter;
+    }
+  }
+}
+
+.feature2__sub {
+  width: 100%;
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.feature2__sub-text {
+  padding-left:.5rem;
+  padding-right:.5rem;
+}
+
+.feature2__sub-image {
+  width: 50%;
+  margin: 0 auto;
+}
+.info h1 {
+  padding-bottom: 50px;
+}
+header#hero {
+  background: $theme-primary;
+  color: white;
+  padding-bottom: 50px;
+  h1 {
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+}
+header.masthead {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: white;
+    background: $theme-primary;
+    background-position: center;
+    .header-content {
+        position: relative;
+        width: 100%;
+        padding: 100px 15px 100px;
+        text-align: center;
+        .header-content-inner {
+            h1 {
+
+            }
+            hr {
+                margin: 30px auto;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                margin-bottom: 50px;
+                color: fade-in(white, .3);
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        height: auto;
+        min-height: 800px;
+        .header-content {
+            position: relative;
+            padding: 0 50px;
+            .header-content-inner {
+                max-width: 1000px;
+                margin-right: auto;
+                margin-left: auto;
+                padding-top: 80px;
+                h1 {
+                    font-size: 40px;
+                }
+                p {
+                    font-size: 18px;
+                    max-width: 80%;
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}
