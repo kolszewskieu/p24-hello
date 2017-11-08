@@ -295,7 +295,8 @@ header.masthead {
 .btn-default {
   color: #222222;
   border-color: white;
-  background-color: white; }
+  background-color: white;
+  cursor: pointer; }
   .btn-default:focus, .btn-default.focus {
     color: #222222;
     border-color: #bfbfbf;
@@ -332,7 +333,8 @@ header.masthead {
 .btn-primary {
   color: white;
   border-color: #6bccf3;
-  background-color: #6bccf3; }
+  background-color: #6bccf3;
+  cursor: pointer; }
   .btn-primary:focus, .btn-primary.focus {
     color: white;
     border-color: #1198ce;

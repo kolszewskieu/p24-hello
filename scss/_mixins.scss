@@ -4,6 +4,7 @@
     color: $color;
     border-color: $border;
     background-color: $background;
+    cursor: pointer;
     &:focus,
     &.focus {
         color: $color;
